@@ -1,0 +1,70 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Is anyone there?",
+                "Good day"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! Ask me anything about healthcare or diseases."
+            ]
+        },
+        {
+            "tag": "covid",
+            "patterns": [
+                "What is COVID-19?",
+                "Tell me about coronavirus",
+                "COVID symptoms",
+                "How to prevent COVID?"
+            ],
+            "responses": [
+                "COVID-19 is an infectious disease caused by the SARS-CoV-2 virus. Symptoms include fever, cough, and fatigue.",
+                "Prevent COVID by wearing masks, maintaining distance, and getting vaccinated."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "What is pneumonia?",
+                "Pneumonia causes",
+                "Symptoms of pneumonia",
+                "Is pneumonia dangerous?"
+            ],
+            "responses": [
+                "Pneumonia is a lung infection that causes cough, fever, and breathing difficulty.",
+                "It can be bacterial or viral and is serious if untreated."
+            ]
+        },
+        {
+            "tag": "tuberculosis",
+            "patterns": [
+                "Tell me about tuberculosis",
+                "What causes TB?",
+                "Is tuberculosis contagious?",
+                "TB symptoms"
+            ],
+            "responses": [
+                "Tuberculosis is a bacterial infection that mainly affects the lungs. It spreads through the air.",
+                "Common symptoms are a persistent cough, weight loss, and night sweats."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Talk to you soon"
+            ],
+            "responses": [
+                "Goodbye! Stay safe!",
+                "Take care and feel free to come back anytime."
+            ]
+        }
+    ]
+}
