@@ -5,7 +5,7 @@
 
 ## 🌐 Live App
 
-🔗 [Launch MedGuide on Streamlit](https://your-deployment-url.streamlit.app)  
+🔗 [Launch MedGuide on Streamlit]((https://huggingface.co/spaces/shreyamahajan5/MedGuide))  
 *(Update the link after deployment)*
 
 ---
