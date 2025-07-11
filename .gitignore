@@ -4,3 +4,4 @@ __pycache__/
 *.h5
 .env
 .DS_Store
+.history/
