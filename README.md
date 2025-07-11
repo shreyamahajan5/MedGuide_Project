@@ -1,25 +1,103 @@
-# MedGuide
+# 🩺 MedGuide
 
-Title: "Empowering Students and Healthcare with MedGuide: An AI-Powered Educational and Diagnostic Solution"
+**AI-Powered Chest X-ray Diagnostic System with Smart Medical Chat Support**
 
-Aim: This report seeks to provide an in-depth understanding of MedGuide, a multifaceted AI-powered project tailored to assist students in their educational journey and provide 
-diagnostic predictions for chest X-ray images. It explores the technical aspects, functionalities, and potential societal impact of MedGuide.
 
-Abstract: MedGuide represents a groundbreaking project that merges the worlds of education and healthcare through advanced AI technology. This versatile solution is designed 
-to aid students in their learning journey by providing guidance and resolving queries via a chat application. Simultaneously, MedGuide leverages machine learning to make predictions 
-on chest X-ray images, identifying diseases like COVID-19, pneumonia, tuberculosis, and normal cases. This report delves into the intricate software specifications, 
-covering both educational and diagnostic components. MedGuide not only enhances the student learning experience but also contributes to improved healthcare diagnosis, holding profound 
-implications for both fields.
+## 🌐 Live App
 
-Objective:
-Offer a comprehensive understanding of MedGuide's educational support component,emphasizing its role in helping students learn and resolve queries.
-Detail the technical specifications for disease prediction using chest X-ray images, with a focus on machine learning and diagnostic capabilities.
-Highlight the dual nature of MedGuide, serving as an educational guide and a diagnostic tool.
-Discuss the significance of AI-driven educational support in enhancing student learning experiences.
-Explain the importance of AI in healthcare, especially in improving the accuracy and speed of disease diagnosis.
-Explore the potential societal impact of MedGuide in education and healthcare domains
+🔗 [Launch MedGuide on Streamlit](https://your-deployment-url.streamlit.app)  
+*(Update the link after deployment)*
 
-Conclusion: MedGuide stands as a remarkable project at the intersection of education and healthcare, offering invaluable support to students and healthcare practitioners alike. Its dual 
-capabilities, providing educational assistance and disease predictions from chest X-ray images, highlight the vast potential of AI in serving society. Through advanced software 
-specifications, it not only enriches the student learning experience but also contributes to the accuracy and speed of disease diagnosis. MedGuide embodies the positive influence of AI 
-technology, heralding a future where education and healthcare are significantly enhanced, leading to improved societal well-being and progress.
+---
+
+## 📌 Project Summary
+
+**MedGuide** is an intelligent healthcare application built to assist in **chest X-ray diagnosis** using deep learning and to provide basic medical information through a chatbot assistant. Designed for both **students** and **healthcare professionals**, the tool streamlines early detection and learning.
+
+---
+
+## 🫁 Core Feature: Chest X-ray Disease Detection
+
+### ✅ What It Does:
+Upload a chest X-ray image, and the system uses a trained convolutional neural network to detect:
+
+- **COVID-19**
+- **Pneumonia**
+- **Tuberculosis**
+- **Normal (Healthy)**
+
+### ✅ Why It Matters:
+- Speeds up preliminary analysis in remote or understaffed settings
+- Assists medical students in learning how X-ray diagnostics work
+- Enables early triage before formal testing
+
+### 🧠 How It Works:
+- Pre-trained deep learning model (`.h5`) built using TensorFlow/Keras
+- Image preprocessing using OpenCV & PIL
+- Streamlit-based interactive UI for image upload and result display
+
+---
+
+## 💬 Educational Chatbot (Secondary Feature)
+
+While the X-ray model handles diagnostics, the **built-in chatbot** allows users to:
+- Ask health-related questions (e.g., “What is pneumonia?”)
+- Learn about diseases and their symptoms
+- Understand diagnostic methods in a friendly, conversational manner
+
+Built using:
+- `scikit-learn` + `TF-IDF` + `LogisticRegression`
+- `intents.json` for pattern–response mapping
+
+---
+
+## 🖼️ Interface Preview
+
+MedGuide/
+├── MedGuide.py # Main app: X-ray predictor
+├── pages/
+│ └── ChatApp.py # Medical chatbot
+├── chatbot_model.pkl # Trained ML model for chatbot
+├── vectorizer.pkl # TF-IDF vectorizer
+├── intents.json # Chatbot Q&A dataset
+├── README.md # This file
+
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/MedGuide.git
+cd MedGuide
+
+### 2. Install Requirements
+```bash
+pip install streamlit tensorflow opencv-python scikit-learn pillow
+
+### 3. Launch the App
+```bash
+streamlit run MedGuide.py
+
+## 📚 Use Cases
+
+🧪 Upload an X-ray for AI-based diagnosis
+🧠 Ask basic health-related questions
+🧑‍🎓 Use it as an educational tool to learn medical imaging
+🏥 Prototype assistant for clinics and telehealth platforms
+
+## 🛠 Technologies Used
+
+Python
+Streamlit
+TensorFlow / Keras
+OpenCV
+scikit-learn
+JSON (for NLP intents)
+
+## 👩‍💻 Author
+
+Shreya Mahajan
+LinkedIn | GitHub
+
