@@ -5,3 +5,4 @@ pillow
 scikit-learn
 numpy
 matplotlib
+tensorflow-cpu==2.13.0
