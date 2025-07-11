@@ -1,8 +1,7 @@
 streamlit
-tensorflow
+tensorflow==2.13.0
 opencv-python
 pillow
 scikit-learn
 numpy
 matplotlib
-nltk
