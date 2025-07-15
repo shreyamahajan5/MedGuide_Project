@@ -69,29 +69,19 @@ MedGuide/
 Follow the steps below to set up and run **MedGuide** on your local machine:
 
 ### 1. Clone the Repository
-```bash
 git clone https://github.com/shreyamahajan5/MedGuide.git
 cd MedGuide
 
 ### 2. Install Required Packages
-
 Install from requirements.txt:
-
-```bash
 pip install -r requirements.txt
 
 Or install individually:
-
-```bash
 pip install streamlit tensorflow opencv-python scikit-learn pillow
 
 ### 3. Launch the Application
 To run the main app:
-
-```bash
 streamlit run MedGuide.py
 
 To run the chatbot page directly:
-
-```bash
 streamlit run pages/ChatApp.py
