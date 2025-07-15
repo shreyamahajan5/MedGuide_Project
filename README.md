@@ -66,27 +66,29 @@ MedGuide/
 
 ## 🚀 How to Run
 
-### 1. Clone the Repo
+1. Clone the Repo
+
 ```bash
 git clone https://github.com/your-username/MedGuide.git
 cd MedGuide
 
-### 2. Install Requirements
+]2. Install Requirements
+
 ```bash
 pip install streamlit tensorflow opencv-python scikit-learn pillow
 
-### 3. Launch the App
+3. Launch the App
 ```bash
 streamlit run MedGuide.py
 
-## 📚 Use Cases
+📚 Use Cases
 
 🧪 Upload an X-ray for AI-based diagnosis
 🧠 Ask basic health-related questions
 🧑‍🎓 Use it as an educational tool to learn medical imaging
 🏥 Prototype assistant for clinics and telehealth platforms
 
-## 🛠 Technologies Used
+🛠 Technologies Used
 
 Python
 Streamlit
