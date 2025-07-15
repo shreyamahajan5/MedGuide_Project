@@ -64,41 +64,34 @@ MedGuide/
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Project Locally
 
-1. Clone the Repo
+Follow the steps below to set up and run **MedGuide** on your local machine:
 
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/MedGuide.git
+git clone https://github.com/shreyamahajan5/MedGuide.git
 cd MedGuide
 
-]2. Install Requirements
+### 2. Install Required Packages
+
+Install from requirements.txt:
+
+```bash
+pip install -r requirements.txt
+
+Or install individually:
 
 ```bash
 pip install streamlit tensorflow opencv-python scikit-learn pillow
 
-3. Launch the App
+### 3. Launch the Application
+To run the main app:
+
 ```bash
 streamlit run MedGuide.py
 
-📚 Use Cases
+To run the chatbot page directly:
 
-🧪 Upload an X-ray for AI-based diagnosis
-🧠 Ask basic health-related questions
-🧑‍🎓 Use it as an educational tool to learn medical imaging
-🏥 Prototype assistant for clinics and telehealth platforms
-
-🛠 Technologies Used
-
-Python
-Streamlit
-TensorFlow / Keras
-OpenCV
-scikit-learn
-JSON (for NLP intents)
-
-## 👩‍💻 Author
-
-Shreya Mahajan
-LinkedIn | GitHub
-
+```bash
+streamlit run pages/ChatApp.py
